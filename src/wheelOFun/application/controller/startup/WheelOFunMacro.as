@@ -8,6 +8,7 @@ package wheelOFun.application.controller.startup
 	import robotlegs.bender.extensions.contextView.ContextView;
 	
 	import wheelOFun.application.signals.GameStartupCompleteSignal;
+	import wheelOFun.display.starling.controller.InitStarlingMacro;
 	
 	public class WheelOFunMacro extends SequenceMacro implements IMacro
 	{
@@ -21,7 +22,7 @@ package wheelOFun.application.controller.startup
 		
 		override public function prepare():void
 		{
-			//add(InitStarlingMacro);
+			add(InitStarlingMacro);
 			
 			//add( WheelOFunStartupGameMacro );
 		}
