@@ -30,7 +30,7 @@ package wheelOFun.display.starling.controller
 		override public function execute():void
 		{
 			super.execute();
-			// TODO: map to actual commands
+			
 			injector.map(AddGameLayerSignal).asSingleton();
 			injector.map(AddViewToGameLayerSignal).asSingleton();
 			

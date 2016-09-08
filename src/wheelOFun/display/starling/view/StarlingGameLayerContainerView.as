@@ -1,20 +1,21 @@
 package wheelOFun.display.starling.view
 {
 	
+	import flash.utils.Dictionary;
+	
 	import org.osflash.signals.Signal;
 	
-	import starling.display.DisplayObject;
+	import starling.display.DisplayObjectContainer;
+	
+	import starling.display.DisplayObjectContainer;
 	import starling.display.Sprite;
 	import starling.events.Event;
 	
-	public class StarlingGameLayerContainerView extends Sprite
+	import wheelOFun.display.starling.signal.vos.ViewToLayerVO;
+	
+	public class StarlingGameLayerContainerView extends Sprite implements IStarlingGameLayerContainerView
 	{
-		public function StarlingGameLayerContainerView()
-		{
-			_onAddedToStageSignal = new Signal();
-			addEventListener(Event.ADDED_TO_STAGE, onAddedToStage);
-		}
-		
+		private var _gameLayers:Dictionary;
 		private var _onAddedToStageSignal:Signal;
 		
 		public function get onAddedToStageSignal():Signal
@@ -22,9 +23,24 @@ package wheelOFun.display.starling.view
 			return _onAddedToStageSignal;
 		}
 		
-		public function addLayer(view:Object):void
+		public function StarlingGameLayerContainerView()
 		{
-			addChild(view as DisplayObject);
+			_onAddedToStageSignal = new Signal();
+			_gameLayers = new Dictionary();
+			addEventListener(Event.ADDED_TO_STAGE, onAddedToStage);
+		}
+		
+		public function addViewToGameLayer(viewToLayerVO:ViewToLayerVO):void
+		{
+			var gameLayer:Sprite = _gameLayers[viewToLayerVO.layerName];
+			gameLayer.addChild(viewToLayerVO.viewObject);
+		}
+		
+		public function addGameLayer(gameLayerName:String):void
+		{
+			var gameLayer:Sprite = new Sprite();
+			addChild(gameLayer);
+			_gameLayers[gameLayerName] = gameLayer;
 		}
 		
 		private function onAddedToStage(event:Event):void

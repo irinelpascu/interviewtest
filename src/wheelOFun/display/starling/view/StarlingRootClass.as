@@ -6,7 +6,7 @@ package wheelOFun.display.starling.view
 	import starling.display.Sprite;
 	import starling.events.Event;
 
-	public class StarlingRootClass extends Sprite
+	public class StarlingRootClass extends Sprite implements IStarlingRootClass
 	{
 		public function StarlingRootClass()
 		{

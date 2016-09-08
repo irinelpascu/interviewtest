@@ -7,13 +7,13 @@ package wheelOFun.display.starling.view
 	
 	public class StarlingStageMediator extends StarlingMediator
 	{
+		[Inject]
+		public var view:Stage;
+		
 		public function StarlingStageMediator()
 		{
 			super();
 		}
-		
-		[Inject]
-		public var view:Stage;
 		
 		override public function initialize():void
 		{

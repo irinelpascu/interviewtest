@@ -53,8 +53,7 @@ package wheelOFun.application.config
 			var stage:Stage = contextView.view.stage;
 			mediatorMap.mediate(stage);
 			
-			var contextInitializedSignal:ContextInitializedSignal = injector.getInstance(
-							ContextInitializedSignal) as ContextInitializedSignal;
+			var contextInitializedSignal:ContextInitializedSignal = injector.getInstance(ContextInitializedSignal) as ContextInitializedSignal;
 			contextInitializedSignal.dispatch();
 		}
 	}

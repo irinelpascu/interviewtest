@@ -11,6 +11,9 @@ package wheelOFun.display.starling.config
 	import wheelOFun.display.starling.signal.AddViewToStarlingRootClassSignal;
 	
 	import wheelOFun.display.starling.signal.StarlingRootClassReadySignal;
+	import wheelOFun.display.starling.view.IStarlingGameLayerContainerView;
+	import wheelOFun.display.starling.view.IStarlingRootClass;
+	import wheelOFun.display.starling.view.StarlingGameLayerContainerViewMediator;
 	import wheelOFun.display.starling.view.StarlingRootClass;
 	import wheelOFun.display.starling.view.StarlingRootClassMediator;
 	import wheelOFun.display.starling.view.StarlingStageMediator;
@@ -37,7 +40,8 @@ package wheelOFun.display.starling.config
 			injector.map( AddViewToStarlingRootClassSignal ).asSingleton();
 
 			mediatorMap.map( Stage ).toMediator( StarlingStageMediator );
-			mediatorMap.map( StarlingRootClass ).toMediator( StarlingRootClassMediator );
+			mediatorMap.map( IStarlingRootClass ).toMediator( StarlingRootClassMediator );
+			mediatorMap.map(IStarlingGameLayerContainerView).toMediator(StarlingGameLayerContainerViewMediator);
 		}
 	}
 }
