@@ -8,6 +8,7 @@ package wheelOFun.application.controller.startup
 	import robotlegs.bender.extensions.contextView.ContextView;
 	
 	import wheelOFun.application.signals.GameStartupCompleteSignal;
+	import wheelOFun.assets.controller.LoadAssetsMacro;
 	import wheelOFun.display.starling.controller.InitStarlingMacro;
 	
 	public class WheelOFunMacro extends SequenceMacro implements IMacro
@@ -18,18 +19,18 @@ package wheelOFun.application.controller.startup
 		[Inject]
 		public var startupCompleteSignal:GameStartupCompleteSignal;
 		
-		private var startTime:Number;
+		private var _startTime:Number;
 		
 		override public function prepare():void
 		{
 			add(InitStarlingMacro);
-			
+			add(LoadAssetsMacro);
 			//add( WheelOFunStartupGameMacro );
 		}
 		
 		override public function execute():void
 		{
-			startTime = getTimer();
+			_startTime = getTimer();
 			trace("STARTUP WheelOFunMacro start");
 			super.execute();
 		}
@@ -38,8 +39,7 @@ package wheelOFun.application.controller.startup
 		{
 			if (success)
 			{
-				trace("STARTUP WheelOFunMacro was successful! (" + ( getTimer() - startTime)
-				      + "ms)");
+				trace("STARTUP WheelOFunMacro was successful! (" + ( getTimer() - _startTime) + "ms)");
 				startupCompleteSignal.dispatch();
 			}
 			else

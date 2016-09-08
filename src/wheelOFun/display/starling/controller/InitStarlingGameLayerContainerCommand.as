@@ -35,10 +35,6 @@ package wheelOFun.display.starling.controller
 			injector.map(AddViewToGameLayerSignal).asSingleton();
 			
 			addViewToStarlingRootClassSignal.dispatch(StarlingGameLayerContainerView);
-		}
-		
-		private function layerContainer_onReady():void
-		{
 			dispatchComplete(true);
 		}
 	}

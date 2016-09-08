@@ -16,6 +16,7 @@ package wheelOFun.application.config
 	import wheelOFun.application.controller.startup.WheelOFunMacro;
 	import wheelOFun.application.signals.ContextInitializedSignal;
 	import wheelOFun.application.signals.GameStartupCompleteSignal;
+	import wheelOFun.assets.config.AssetsConfig;
 	import wheelOFun.display.starling.config.StarlingConfig;
 	
 	public class WheelOfFunConfig implements IConfig
@@ -43,6 +44,7 @@ package wheelOFun.application.config
 			commandMap.map(GameStartupCompleteSignal).toCommand(GameStartupCompleteCommand).once();
 			
 			context.configure( StarlingConfig );
+			context.configure(AssetsConfig);
 		}
 		
 		private function afterInitializingContext():void

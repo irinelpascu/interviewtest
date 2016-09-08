@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <assets>
+        <asset id="wheel" type="image" url="appgfx/WheelOFun.png"/>
+        <asset id="bgImage" type="image" url="appgfx/background.jpg"/>
+        <asset id="music" type="sound" url="sounds/backgroundMusic.mp3"/>
+        <asset id="click" type="sound" url="sounds/click.mp3"/>
+    </assets>
+</root>
