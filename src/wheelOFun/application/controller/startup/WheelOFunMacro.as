@@ -25,7 +25,6 @@ package wheelOFun.application.controller.startup
 		{
 			add(InitStarlingMacro);
 			add(LoadAssetsMacro);
-			//add( WheelOFunStartupGameMacro );
 		}
 		
 		override public function execute():void

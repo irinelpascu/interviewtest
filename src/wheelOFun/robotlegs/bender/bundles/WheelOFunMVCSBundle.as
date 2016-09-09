@@ -23,12 +23,6 @@ package wheelOFun.robotlegs.bender.bundles
 	
 	import wheelOFun.robotlegs.bender.extensions.starlingViewMap.StarlingViewMapExtension;
 	
-	/**
-	 * For the classic GGS flavour.
-	 *
-	 * <p>This bundle installs a number of extensions commonly used
-	 * in our games.</p>
-	 */
 	public class WheelOFunMVCSBundle implements IBundle
 	{
 		public function extend(context:IContext):void
