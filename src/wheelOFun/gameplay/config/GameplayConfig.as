@@ -16,6 +16,7 @@ package wheelOFun.gameplay.config
 	import wheelOFun.gameplay.model.ResultModel;
 	
 	import wheelOFun.gameplay.model.WheelModel;
+	import wheelOFun.gameplay.signals.ApplyResultToViewSignal;
 	import wheelOFun.gameplay.signals.EnableInteractionSignal;
 	import wheelOFun.gameplay.signals.GenerateResultSignal;
 	
@@ -46,6 +47,7 @@ package wheelOFun.gameplay.config
 			injector.map(ResultModel).asSingleton();
 			
 			injector.map(EnableInteractionSignal).asSingleton();
+			injector.map(ApplyResultToViewSignal).asSingleton();
 			
 			commandMap.map(GenerateResultSignal).toCommand(GenerateResultCommand);
 			

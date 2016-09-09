@@ -5,11 +5,13 @@ package wheelOFun.ui.signals
 {
 	import org.osflash.signals.Signal;
 	
+	import wheelOFun.ui.signals.vo.OpenDialogVO;
+	
 	public class OpenDialogSignal extends Signal
 	{
-		public function OpenDialogSignal(OpenDialogVo)
+		public function OpenDialogSignal()
 		{
-			super(OpenDialogVo);
+			super(OpenDialogVO);
 		}
 	}
 }

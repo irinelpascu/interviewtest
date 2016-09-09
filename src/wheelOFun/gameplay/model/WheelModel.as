@@ -26,7 +26,7 @@ package wheelOFun.gameplay.model
 			
 			for (var i:int = 0; i < length; i++)
 			{
-				wheelSlice = new WheelSliceVO(i, WHEEL_VALUES_IN_CIRCULAR_ORDER[i], 360 / length * i * Math.PI / 180);
+				wheelSlice = new WheelSliceVO(i, WHEEL_VALUES_IN_CIRCULAR_ORDER[i], 360 / length * i);
 				_wheelSlices.push(wheelSlice);
 			}
 		}

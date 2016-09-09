@@ -32,11 +32,11 @@ package wheelOFun.gameplay.controller
 		override public function execute():void
 		{
 			var wheelImage:WheelView = new WheelView(assetsModel.getTexture(AssetsIDs.WHEEL));
-			wheelImage.addEventListener(Event.ADDED_TO_STAGE, onAddEdToStage);
+			wheelImage.addEventListener(Event.ADDED_TO_STAGE, onAddedToStage);
 			addViewToGameLayerSignal.dispatch(new ViewToLayerVO(GameLayersEnum.LAYER_GAMEPLAY.name, wheelImage, new Point(wheelImage.width / 2 + 50, wheelImage.height / 2 + 50)));
 		}
 		
-		private function onAddEdToStage(event:Event):void
+		private function onAddedToStage(event:Event):void
 		{
 			dispatchComplete(true);
 		}

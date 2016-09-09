@@ -8,15 +8,20 @@ package wheelOFun.gameplay.controller
 	
 	import wheelOFun.gameplay.model.ResultModel;
 	import wheelOFun.gameplay.model.vo.WheelSliceVO;
+	import wheelOFun.gameplay.signals.ApplyResultToViewSignal;
 	
 	public class GenerateResultCommand extends Command implements ICommand
 	{
 		[Inject]
 		public var resultModel:ResultModel;
 		
+		[Inject]
+		public var applyResultToViewSignal:ApplyResultToViewSignal;
+		
 		override public function execute():void
 		{
 			var result:WheelSliceVO = resultModel.generateResult();
+			applyResultToViewSignal.dispatch(result);
 		}
 	}
 }
