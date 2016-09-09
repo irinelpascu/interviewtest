@@ -3,7 +3,6 @@
  */
 package wheelOFun.ui.hud.huds.score
 {
-	import wheelOFun.ui.uis.score.*;
 	import starling.display.Sprite;
 	import starling.text.TextField;
 	import starling.text.TextFormat;
@@ -16,9 +15,9 @@ package wheelOFun.ui.hud.huds.score
 		public function ScoreView()
 		{
 			super();
-			_scoreLabelTF = new TextField(100, 20, "Score:", new TextFormat("Verdana", 18));
+			_scoreLabelTF = new TextField(100, 20, "Score:", new TextFormat("Verdana", 16));
 			addChild(_scoreLabelTF);
-			_scoreTF = new TextField(100, 20, "0", new TextFormat("Verdana", 18));
+			_scoreTF = new TextField(100, 20, "0", new TextFormat("Verdana", 16));
 			_scoreTF.x = 100;
 			addChild(_scoreTF);
 		}

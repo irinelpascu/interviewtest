@@ -10,18 +10,17 @@ package wheelOFun.gameplay.config
 	import robotlegs.bender.framework.api.IContext;
 	import robotlegs.bender.framework.api.IInjector;
 	
+	import wheelOFun.gameplay.controller.EndSpinCommand;
+	
 	import wheelOFun.gameplay.controller.GenerateResultCommand;
 	import wheelOFun.gameplay.model.ResultModel;
-	
-	import wheelOFun.gameplay.model.ResultModel;
-	
+	import wheelOFun.gameplay.model.ScoreModel;
 	import wheelOFun.gameplay.model.WheelModel;
 	import wheelOFun.gameplay.signals.ApplyResultToViewSignal;
 	import wheelOFun.gameplay.signals.EnableInteractionSignal;
+	import wheelOFun.gameplay.signals.EndSpinSignal;
 	import wheelOFun.gameplay.signals.GenerateResultSignal;
-	
 	import wheelOFun.gameplay.view.IWheelView;
-	
 	import wheelOFun.gameplay.view.WheelViewMediator;
 	
 	public class GameplayConfig implements IConfig
@@ -45,11 +44,13 @@ package wheelOFun.gameplay.config
 		{
 			injector.map(WheelModel).asSingleton();
 			injector.map(ResultModel).asSingleton();
+			injector.map(ScoreModel).asSingleton();
 			
 			injector.map(EnableInteractionSignal).asSingleton();
 			injector.map(ApplyResultToViewSignal).asSingleton();
 			
 			commandMap.map(GenerateResultSignal).toCommand(GenerateResultCommand);
+			commandMap.map(EndSpinSignal).toCommand(EndSpinCommand);
 			
 			mediatorMap.map(IWheelView).toMediator(WheelViewMediator);
 		}

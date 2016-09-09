@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7763dcd6-bde4-4ac0-b870-5d8a67fda036" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.as" afterPath="$PROJECT_DIR$/src/Main.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/display/starling/controller/InitStarlingCommand.as" afterPath="$PROJECT_DIR$/src/wheelOFun/display/starling/controller/InitStarlingCommand.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/gameplay/config/GameplayConfig.as" afterPath="$PROJECT_DIR$/src/wheelOFun/gameplay/config/GameplayConfig.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/gameplay/controller/CreateWheelViewCommand.as" afterPath="$PROJECT_DIR$/src/wheelOFun/gameplay/controller/CreateWheelViewCommand.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/gameplay/controller/GameplayMacro.as" afterPath="$PROJECT_DIR$/src/wheelOFun/gameplay/controller/GameplayMacro.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/gameplay/controller/GenerateResultCommand.as" afterPath="$PROJECT_DIR$/src/wheelOFun/gameplay/controller/GenerateResultCommand.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/gameplay/model/WheelModel.as" afterPath="$PROJECT_DIR$/src/wheelOFun/gameplay/model/WheelModel.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/gameplay/view/WheelViewMediator.as" afterPath="$PROJECT_DIR$/src/wheelOFun/gameplay/view/WheelViewMediator.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/ui/signals/OpenDialogSignal.as" afterPath="$PROJECT_DIR$/src/wheelOFun/ui/signals/OpenDialogSignal.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/ui/dialog/config/DialogConfig.as" afterPath="$PROJECT_DIR$/src/wheelOFun/ui/dialog/config/DialogConfig.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/ui/hud/config/HUDConfig.as" afterPath="$PROJECT_DIR$/src/wheelOFun/ui/hud/config/HUDConfig.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/score/ScoreView.as" afterPath="$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/score/ScoreView.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/ui/signals/UpdateScoreViewSignal.as" afterPath="$PROJECT_DIR$/src/wheelOFun/ui/signals/UpdateScoreViewSignal.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/balance/BalanceView.as" afterPath="$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/balance/MaxScoreView.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/balance/BalanceViewMediator.as" afterPath="$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/balance/MaxScoreViewMediator.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/balance/IBalanceView.as" afterPath="$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/balance/IMaxScoreView.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/wheelOFun/ui/signals/UpdateBalanceViewSignal.as" afterPath="$PROJECT_DIR$/src/wheelOFun/ui/signals/UpdateMaxScoreViewSignal.as" />
     </list>
     <ignored path="WheelOFun.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,35 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GameplayMacro.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/controller/GameplayMacro.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-              <folding>
-                <element signature="e#85#132#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InitializeResultModelCommand.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/controller/InitializeResultModelCommand.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="e#85#130#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WheelViewMediator.as" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WheelViewMediator.as" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/view/WheelViewMediator.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="64" column="40" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
+            <state relative-caret-position="289">
+              <caret line="41" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
               <folding>
                 <element signature="e#79#125#0" expanded="true" />
               </folding>
@@ -65,66 +51,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WheelSliceVO.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/model/vo/WheelSliceVO.as">
+      <file leaf-file-name="EndSpinSignal.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/signals/EndSpinSignal.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="11" column="98" selection-start-line="11" selection-start-column="92" selection-end-line="11" selection-end-column="98" />
+            <state relative-caret-position="153">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DisplayObject.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/starling/display/DisplayObject.as">
+      <file leaf-file-name="GameplayMacro.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/controller/GameplayMacro.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="966" column="0" selection-start-line="966" selection-start-column="0" selection-end-line="966" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplyResultToViewSignal.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/signals/ApplyResultToViewSignal.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="551">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
               <folding>
-                <element signature="e#82#117#0" expanded="true" />
+                <element signature="e#85#132#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenerateResultCommand.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/controller/GenerateResultCommand.as">
+      <file leaf-file-name="DialogConfig.as" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/dialog/config/DialogConfig.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+            <state relative-caret-position="459">
+              <caret line="27" column="88" selection-start-line="27" selection-start-column="88" selection-end-line="27" selection-end-column="88" />
               <folding>
-                <element signature="e#85#130#0" expanded="true" />
+                <element signature="e#38#102#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WheelModel.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/model/WheelModel.as">
+      <file leaf-file-name="CreateHUDCommand.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/controller/CreateHUDCommand.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="28" column="100" selection-start-line="28" selection-start-column="100" selection-end-line="28" selection-end-column="100" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateWheelViewCommand.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/controller/CreateWheelViewCommand.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="34" column="78" selection-start-line="34" selection-start-column="78" selection-end-line="34" selection-end-column="78" />
-              <folding />
+            <state relative-caret-position="255">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+              <folding>
+                <element signature="e#85#109#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,11 +100,31 @@
       <file leaf-file-name="GameplayConfig.as" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/config/GameplayConfig.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="49" column="64" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
+            <state relative-caret-position="508">
+              <caret line="52" column="65" selection-start-line="52" selection-start-column="65" selection-end-line="52" selection-end-column="65" />
               <folding>
                 <element signature="e#81#140#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EndSpinCommand.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/controller/EndSpinCommand.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="21" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScoreModel.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/model/ScoreModel.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -158,18 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/wheelOFun/display/starling/view/StarlingGameLayerContainerViewMediator.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/display/starling/enums/GameLayersEnum.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/ui/balance/BalanceView.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/ui/balance/IBalanceView.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/ui/balance/UpdateBalanceViewSignal.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/ui/score/BalanceView.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/ui/score/IScoreView.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/ui/score/ScoreView.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/ui/signals/UpdateScoreViewSignal.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/ui/balance/BalanceViewMediator.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/ui/score/ScoreViewMediator.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/ui/uis/score/ScoreViewMediator.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/ui/signals/OpenHUDSignal.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/ui/uis/score/ScoreView.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/ui/uis/balance/BalanceViewMediator.as" />
@@ -181,7 +157,6 @@
         <option value="$PROJECT_DIR$/src/wheelOFun/ui/dialog/dialogs/bankrupt/BankruptDialogViewMediator.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/ui/dialog/dialogs/bankrupt/BankruptDialogView.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/ui/dialog/dialogs/bankrupt/IBankruptDialogView.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/ui/dialog/config/DialogConfig.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/ui/config/UIConfig.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/ui/signals/vo/IDialogProperties.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/ui/dialog/interfaces/IDialogProperties.as" />
@@ -200,15 +175,28 @@
         <option value="$PROJECT_DIR$/src/wheelOFun/display/starling/controller/InitStarlingGameLayerViewClassesCommand.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/gameplay/model/vo/WheelSliceVO.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/gameplay/model/ResultModel.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/gameplay/controller/GameplayMacro.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/gameplay/controller/InitializeResultModelCommand.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/gameplay/config/GameplayConfig.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/gameplay/controller/GenerateResultCommand.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/gameplay/signals/ApplyResultToViewSignal.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/ui/signals/OpenDialogSignal.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/gameplay/controller/CreateWheelViewCommand.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/gameplay/model/WheelModel.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/gameplay/controller/CreateHUDCommand.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/signals/UpdateScoreViewSignal.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/signals/UpdateBalanceViewSignal.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/score/ScoreView.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/gameplay/controller/CreateWheelViewCommand.as" />
+        <option value="$PROJECT_DIR$/src/Main.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/display/starling/controller/InitStarlingCommand.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/balance/BalanceView.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/balance/MaxScoreView.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/gameplay/controller/GenerateResultCommand.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/balance/MaxScoreViewMediator.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/gameplay/signals/EndSpinSignal.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/gameplay/view/WheelViewMediator.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/gameplay/config/GameplayConfig.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/gameplay/controller/EndSpinCommand.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/gameplay/model/ScoreModel.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/gameplay/controller/GameplayMacro.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/dialog/config/DialogConfig.as" />
       </list>
     </option>
   </component>
@@ -364,6 +352,78 @@
               <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="huds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WheelOFun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GamesysInterviewTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wheelOFun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="huds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="balance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WheelOFun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GamesysInterviewTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wheelOFun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -482,6 +542,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dialog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -957,10 +1021,10 @@
       <recent name="wheelOFun.application" />
     </key>
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
-      <recent name="wheelOFun.gameplay.signals" />
       <recent name="wheelOFun.gameplay.controller" />
-      <recent name="wheelOFun.gameplay.model.vo" />
+      <recent name="wheelOFun.gameplay.signals" />
       <recent name="wheelOFun.gameplay.model" />
+      <recent name="wheelOFun.gameplay.model.vo" />
       <recent name="wheelOFun.gameplay.view" />
     </key>
     <key name="com.intellij.javascript.flex.refactoring.moveClass.FlexMoveClassDialog.target_package">
@@ -1193,12 +1257,12 @@
       <workItem from="1473343816661" duration="13281000" />
       <workItem from="1473363134793" duration="5726000" />
       <workItem from="1473408597183" duration="9768000" />
-      <workItem from="1473420889669" duration="19463000" />
+      <workItem from="1473420889669" duration="22128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74322000" />
+    <option name="totallyTimeSpent" value="76987000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1251,7 +1315,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="89" />
+      <option name="time" value="94" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1260,86 +1324,8 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/score/IScoreView.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/signals/UpdateBalanceViewSignal.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/balance/BalanceViewMediator.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/balance/BalanceView.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/balance/IBalanceView.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/score/ScoreViewMediator.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/appgfx/wheelOFun.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/dialog/dialogs/loseATurn/BalanceView.as" />
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/hud/config/HUDConfig.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/dialog/dialogs/bankrupt/IBankruptDialogView.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/dialog/dialogs/bankrupt/BankruptDialogView.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/dialog/dialogs/jackpot/BalanceView.as" />
     <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/dialog/dialogs/jackpot/IBalanceView.as" />
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/dialog/config/DialogConfig.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" column="88" selection-start-line="35" selection-start-column="88" selection-end-line="35" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/dialog/interfaces/IDialogPropertiesVO.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1351,6 +1337,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+          <folding>
+            <element signature="e#31#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1365,6 +1354,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1418,14 +1408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/application/config/WheelOfFunConfig.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/signals/GenerateResultSignal.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1469,14 +1451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/display/starling/controller/InitStarlingCommand.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/wheelOFun/display/starling/controller/InitStarlingGameLayerContainerCommand.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1511,14 +1485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/application/controller/startup/WheelOFunMacro.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="22" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/view/WheelView.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1533,26 +1499,6 @@
           <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/config/GameplayConfig.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="49" column="64" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
-          <folding>
-            <element signature="e#81#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/controller/GenerateResultCommand.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-          <folding>
-            <element signature="e#85#130#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1585,16 +1531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/controller/GameplayMacro.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding>
-            <element signature="e#85#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/controller/InitializeResultModelCommand.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1602,14 +1538,6 @@
           <folding>
             <element signature="e#85#130#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/controller/CreateWheelViewCommand.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="34" column="78" selection-start-line="34" selection-start-column="78" selection-end-line="34" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1631,18 +1559,192 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/model/WheelModel.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
+        <state relative-caret-position="330">
           <caret line="28" column="100" selection-start-line="28" selection-start-column="100" selection-end-line="28" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/robotlegs/bender/extensions/vigilance/VigilanceExtension.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/application/controller/startup/WheelOFunMacro.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="22" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/application/config/WheelOfFunConfig.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+          <folding>
+            <element signature="e#84#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/signals/UpdateScoreViewSignal.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/signals/UpdateMaxScoreViewSignal.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/score/ScoreView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="82" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/controller/CreateWheelViewCommand.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="35" column="148" selection-start-line="35" selection-start-column="148" selection-end-line="35" selection-end-column="148" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="96" selection-start-line="24" selection-start-column="96" selection-end-line="24" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/display/starling/controller/InitStarlingCommand.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/balance/MaxScoreView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#85#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/controller/GenerateResultCommand.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+          <folding>
+            <element signature="e#85#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/signals/EndSpinSignal.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/balance/MaxScoreViewMediator.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#85#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/model/ScoreModel.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/controller/CreateHUDCommand.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="e#85#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/config/GameplayConfig.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="52" column="65" selection-start-line="52" selection-start-column="65" selection-end-line="52" selection-end-column="65" />
+          <folding>
+            <element signature="e#81#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/controller/EndSpinCommand.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/view/WheelViewMediator.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="64" column="40" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
+        <state relative-caret-position="289">
+          <caret line="41" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
           <folding>
             <element signature="e#79#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/controller/GameplayMacro.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <element signature="e#85#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/dialog/config/DialogConfig.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="88" selection-start-line="27" selection-start-column="88" selection-end-line="27" selection-end-column="88" />
+          <folding>
+            <element signature="e#38#102#0" expanded="true" />
           </folding>
         </state>
       </provider>

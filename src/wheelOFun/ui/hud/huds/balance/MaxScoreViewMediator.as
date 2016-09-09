@@ -3,19 +3,18 @@
  */
 package wheelOFun.ui.hud.huds.balance
 {
-	import wheelOFun.ui.uis.balance.*;
 	import robotlegs.bender.bundles.mvcs.Mediator;
 	import robotlegs.bender.extensions.mediatorMap.api.IMediator;
 	
-	import wheelOFun.ui.signals.UpdateBalanceViewSignal;
+	import wheelOFun.ui.signals.UpdateMaxScoreViewSignal;
 	
-	public class BalanceViewMediator extends Mediator implements IMediator
+	public class MaxScoreViewMediator extends Mediator implements IMediator
 	{
 		[Inject]
-		public var balanceView:IBalanceView;
+		public var balanceView:IMaxScoreView;
 		
 		[Inject]
-		public var updateBalanceViewSignal:UpdateBalanceViewSignal;
+		public var updateBalanceViewSignal:UpdateMaxScoreViewSignal;
 		
 		override public function initialize():void
 		{

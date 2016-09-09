@@ -8,12 +8,12 @@ package wheelOFun.gameplay.controller
 	
 	import flash.utils.getTimer;
 	
-	import wheelOFun.gameplay.signals.EnableInteractionSignal;
+	import wheelOFun.gameplay.signals.EndSpinSignal;
 	
 	public class GameplayMacro extends SequenceMacro implements IMacro
 	{
 		[Inject]
-		public var enableInteractionSignal:EnableInteractionSignal;
+		public var endSpinSignal:EndSpinSignal;
 		
 		private var _startTime:Number;
 		
@@ -21,6 +21,7 @@ package wheelOFun.gameplay.controller
 		{
 			add(InitializeResultModelCommand);
 			add(CreateWheelViewCommand);
+			add(CreateHUDCommand);
 		}
 		
 		override public function execute():void
@@ -35,7 +36,7 @@ package wheelOFun.gameplay.controller
 			if (success)
 			{
 				trace("GameplayMacro was successful! (" + ( getTimer() - _startTime) + "ms)");
-				enableInteractionSignal.dispatch();
+				endSpinSignal.dispatch();
 			}
 			else
 			{

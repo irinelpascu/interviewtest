@@ -7,7 +7,7 @@ package wheelOFun.ui.signals
 	
 	public class UpdateScoreViewSignal extends Signal
 	{
-		public function UpdateScoreViewSignal(int)
+		public function UpdateScoreViewSignal()
 		{
 			super(int);
 		}

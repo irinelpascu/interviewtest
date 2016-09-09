@@ -3,7 +3,7 @@
  */
 package wheelOFun.ui.hud.huds.balance
 {
-	public interface IBalanceView
+	public interface IMaxScoreView
 	{
 		function setBalance(value:int):void;
 	}

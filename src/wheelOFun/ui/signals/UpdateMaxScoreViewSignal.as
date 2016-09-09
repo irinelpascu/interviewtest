@@ -5,9 +5,9 @@ package wheelOFun.ui.signals
 {
 	import org.osflash.signals.Signal;
 	
-	public class UpdateBalanceViewSignal extends Signal
+	public class UpdateMaxScoreViewSignal extends Signal
 	{
-		public function UpdateBalanceViewSignal(int)
+		public function UpdateMaxScoreViewSignal()
 		{
 			super(int);
 		}

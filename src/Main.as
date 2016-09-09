@@ -22,8 +22,7 @@ package
 				construct();
 			} else
 			{
-				this.addEventListener(Event.ADDED_TO_STAGE, addedToStage, false, int.MAX_VALUE,
-				                      true);
+				this.addEventListener(Event.ADDED_TO_STAGE, addedToStage, false, int.MAX_VALUE, true);
 			}
 		}
 		private var _context:Context;

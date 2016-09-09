@@ -33,7 +33,7 @@ package wheelOFun.gameplay.controller
 		{
 			var wheelImage:WheelView = new WheelView(assetsModel.getTexture(AssetsIDs.WHEEL));
 			wheelImage.addEventListener(Event.ADDED_TO_STAGE, onAddedToStage);
-			addViewToGameLayerSignal.dispatch(new ViewToLayerVO(GameLayersEnum.LAYER_GAMEPLAY.name, wheelImage, new Point(wheelImage.width / 2 + 50, wheelImage.height / 2 + 50)));
+			addViewToGameLayerSignal.dispatch(new ViewToLayerVO(GameLayersEnum.LAYER_GAMEPLAY.name, wheelImage, new Point(wheelImage.width / 2 + 250, wheelImage.height / 2 + 50)));
 		}
 		
 		private function onAddedToStage(event:Event):void

@@ -6,10 +6,10 @@ package wheelOFun.ui.hud.config
 	import robotlegs.bender.framework.api.IContext;
 	import robotlegs.bender.framework.api.IInjector;
 	
-	import wheelOFun.ui.signals.UpdateBalanceViewSignal;
+	import wheelOFun.ui.signals.UpdateMaxScoreViewSignal;
 	import wheelOFun.ui.signals.UpdateScoreViewSignal;
-	import wheelOFun.ui.hud.huds.balance.BalanceViewMediator;
-	import wheelOFun.ui.hud.huds.balance.IBalanceView;
+	import wheelOFun.ui.hud.huds.balance.MaxScoreViewMediator;
+	import wheelOFun.ui.hud.huds.balance.IMaxScoreView;
 	import wheelOFun.ui.hud.huds.score.IScoreView;
 	import wheelOFun.ui.hud.huds.score.ScoreViewMediator;
 	
@@ -29,11 +29,11 @@ package wheelOFun.ui.hud.config
 		
 		public function configure():void
 		{
-			injector.map(UpdateBalanceViewSignal).asSingleton();
+			injector.map(UpdateMaxScoreViewSignal).asSingleton();
 			injector.map(UpdateScoreViewSignal).asSingleton();
 			
 			mediatorMap.map(IScoreView).toMediator(ScoreViewMediator);
-			mediatorMap.map(IBalanceView).toMediator(BalanceViewMediator);
+			mediatorMap.map(IMaxScoreView).toMediator(MaxScoreViewMediator);
 		}
 	}
 }

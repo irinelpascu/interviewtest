@@ -12,6 +12,7 @@ package wheelOFun.gameplay.view
 	import wheelOFun.gameplay.model.vo.WheelSliceVO;
 	import wheelOFun.gameplay.signals.ApplyResultToViewSignal;
 	import wheelOFun.gameplay.signals.EnableInteractionSignal;
+	import wheelOFun.gameplay.signals.EndSpinSignal;
 	import wheelOFun.gameplay.signals.GenerateResultSignal;
 	
 	public class WheelViewMediator extends Mediator implements IMediator
@@ -35,6 +36,9 @@ package wheelOFun.gameplay.view
 		
 		[Inject]
 		public var applyResultToViewSignal:ApplyResultToViewSignal;
+		
+		[Inject]
+		public var endSpinSignal:EndSpinSignal;
 		
 		private var _speed:Number;
 		private var _phase:String;
@@ -90,10 +94,10 @@ package wheelOFun.gameplay.view
 			generateResultSignal.dispatch();
 			wheelView.wheelTouchSignal.removeAll();
 			
-			startRotation();
+			startSpin();
 		}
 		
-		private function startRotation():void
+		private function startSpin():void
 		{
 			_speed = 0;
 			_phase = MOVEMENT_PHASE_ACCELERATION;
@@ -119,8 +123,7 @@ package wheelOFun.gameplay.view
 					if (_speed <= 0)
 					{
 						_speed = 0;
-						DisplayObject(wheelView).removeEventListener(Event.ENTER_FRAME, onEF);
-						enableInteraction();
+						endSpin();
 					}
 				}
 				else if (_currentSliceIndex == (_result.sliceIndex + _slicesNeededToStop) % 24)
@@ -138,6 +141,12 @@ package wheelOFun.gameplay.view
 			wheelView.rotation += degreesToRadians(_speed);
 			_currentRotationAngleDegrees = (_currentRotationAngleDegrees + _speed) % 360;
 			_currentSliceIndex = 23 - Math.floor(_currentRotationAngleDegrees / DEGREES_PER_SLICE);
+		}
+		
+		private function endSpin():void
+		{
+			DisplayObject(wheelView).removeEventListener(Event.ENTER_FRAME, onEF);
+			endSpinSignal.dispatch();
 		}
 		
 		private function degreesToRadians(degree:int):Number

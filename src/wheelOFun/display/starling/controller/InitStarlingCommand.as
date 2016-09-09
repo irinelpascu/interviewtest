@@ -11,6 +11,7 @@ package wheelOFun.display.starling.controller
 	import robotlegs.bender.extensions.contextView.ContextView;
 	
 	import starling.core.Starling;
+	import starling.utils.Align;
 	
 	import wheelOFun.display.starling.signal.StarlingRootClassReadySignal;
 	import wheelOFun.display.starling.view.StarlingRootClass;
@@ -42,7 +43,7 @@ package wheelOFun.display.starling.controller
 			starling.viewPort = new Rectangle(0, 0, stage.stageWidth, stage.stageHeight);
 			starling.stage.stageWidth = stage.stageWidth;
 			starling.stage.stageHeight = stage.stageHeight;
-			starling.showStatsAt();
+			starling.showStatsAt(Align.RIGHT);
 			starling.stage.color = 0x336699;
 			starling.start();
 			

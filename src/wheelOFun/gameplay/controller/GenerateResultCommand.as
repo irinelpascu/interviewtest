@@ -7,6 +7,7 @@ package wheelOFun.gameplay.controller
 	import robotlegs.bender.extensions.commandCenter.api.ICommand;
 	
 	import wheelOFun.gameplay.model.ResultModel;
+	import wheelOFun.gameplay.model.ScoreModel;
 	import wheelOFun.gameplay.model.vo.WheelSliceVO;
 	import wheelOFun.gameplay.signals.ApplyResultToViewSignal;
 	
@@ -16,11 +17,15 @@ package wheelOFun.gameplay.controller
 		public var resultModel:ResultModel;
 		
 		[Inject]
+		public var scoreModel:ScoreModel;
+		
+		[Inject]
 		public var applyResultToViewSignal:ApplyResultToViewSignal;
 		
 		override public function execute():void
 		{
 			var result:WheelSliceVO = resultModel.generateResult();
+			scoreModel.setWinAmount(result.sliceWinAmount);
 			applyResultToViewSignal.dispatch(result);
 		}
 	}
