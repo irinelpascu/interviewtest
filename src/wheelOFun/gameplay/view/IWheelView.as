@@ -3,7 +3,12 @@
  */
 package wheelOFun.gameplay.view
 {
+	import wheelOFun.gameplay.signals.WheelTouchSignal;
+	
 	public interface IWheelView
 	{
+		function get wheelTouchSignal():WheelTouchSignal;
+		function set rotation(rotation:Number):void;
+		function get rotation():Number;
 	}
 }
