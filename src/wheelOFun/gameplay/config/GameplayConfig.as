@@ -10,6 +10,12 @@ package wheelOFun.gameplay.config
 	import robotlegs.bender.framework.api.IContext;
 	import robotlegs.bender.framework.api.IInjector;
 	
+	import wheelOFun.gameplay.model.WheelModel;
+	
+	import wheelOFun.gameplay.view.IWheelView;
+	
+	import wheelOFun.gameplay.view.WheelViewMediator;
+	
 	public class GameplayConfig implements IConfig
 	{
 		[Inject]
@@ -29,6 +35,9 @@ package wheelOFun.gameplay.config
 		
 		public function configure():void
 		{
+			injector.map(WheelModel).asSingleton();
+			
+			mediatorMap.map(IWheelView).toMediator(WheelViewMediator);
 		}
 	}
 }

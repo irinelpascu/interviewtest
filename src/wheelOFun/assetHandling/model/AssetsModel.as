@@ -29,6 +29,15 @@ package wheelOFun.assetHandling.model
 			_textures[assetID] = texture;
 		}
 		
+		public function getTexture(assetID:String):Texture
+		{
+			if (_textures.hasOwnProperty(assetID))
+			{
+				return _textures[assetID];
+			}
+			return null;
+		}
+		
 		assets_model_internal function addPendingAsset(pendingAsset:IPendingAsset):void
 		{
 			_pendingAssets.push(pendingAsset);

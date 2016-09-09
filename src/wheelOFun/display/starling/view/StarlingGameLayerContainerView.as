@@ -5,6 +5,8 @@ package wheelOFun.display.starling.view
 	
 	import org.osflash.signals.Signal;
 	
+	import starling.display.DisplayObject;
+	
 	import starling.display.Sprite;
 	import starling.events.Event;
 	
@@ -30,7 +32,10 @@ package wheelOFun.display.starling.view
 		public function addViewToGameLayer(viewToLayerVO:ViewToLayerVO):void
 		{
 			var gameLayer:Sprite = _gameLayers[viewToLayerVO.layerName];
-			gameLayer.addChild(viewToLayerVO.viewObject);
+			var viewObject:DisplayObject = viewToLayerVO.viewObject;
+			viewObject.x = viewToLayerVO.coordinates.x;
+			viewObject.y = viewToLayerVO.coordinates.y;
+			gameLayer.addChild(viewObject);
 		}
 		
 		public function addGameLayer(gameLayerName:String):void

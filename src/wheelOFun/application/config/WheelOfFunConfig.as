@@ -12,13 +12,13 @@ package wheelOFun.application.config
 	import robotlegs.bender.framework.api.IContext;
 	import robotlegs.bender.framework.api.IInjector;
 	
-	import wheelOFun.application.controller.GameStartupCompleteCommand;
 	import wheelOFun.application.controller.startup.WheelOFunMacro;
 	import wheelOFun.application.signals.ContextInitializedSignal;
 	import wheelOFun.application.signals.GameStartupCompleteSignal;
 	import wheelOFun.assetHandling.config.AssetsConfig;
 	import wheelOFun.display.starling.config.StarlingConfig;
 	import wheelOFun.gameplay.config.GameplayConfig;
+	import wheelOFun.gameplay.controller.GameplayMacro;
 	import wheelOFun.ui.config.UIConfig;
 	
 	public class WheelOfFunConfig implements IConfig
@@ -43,7 +43,7 @@ package wheelOFun.application.config
 			context.afterInitializing(afterInitializingContext);
 			
 			commandMap.map(ContextInitializedSignal).toCommand(WheelOFunMacro).once();
-			commandMap.map(GameStartupCompleteSignal).toCommand(GameStartupCompleteCommand).once();
+			commandMap.map(GameStartupCompleteSignal).toCommand(GameplayMacro).once();
 			
 			context.configure(StarlingConfig);
 			context.configure(AssetsConfig);
