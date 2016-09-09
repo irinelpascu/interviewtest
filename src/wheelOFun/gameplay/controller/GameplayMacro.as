@@ -8,6 +8,10 @@ package wheelOFun.gameplay.controller
 	
 	import flash.utils.getTimer;
 	
+	import treefortress.sound.SoundAS;
+	
+	import wheelOFun.assetHandling.consts.SoundsIDs;
+	
 	import wheelOFun.gameplay.signals.EndSpinSignal;
 	
 	public class GameplayMacro extends SequenceMacro implements IMacro
@@ -21,7 +25,10 @@ package wheelOFun.gameplay.controller
 		{
 			add(InitializeResultModelCommand);
 			add(CreateWheelViewCommand);
+			add(CreateBackgroundImageCommand);
 			add(CreateHUDCommand);
+			
+			SoundAS.play(SoundsIDs.BACKGROUND_SOUND, .2);
 		}
 		
 		override public function execute():void

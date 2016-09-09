@@ -3,7 +3,7 @@
  */
 package wheelOFun.assetHandling.consts
 {
-	public class AssetsSoundsIDs
+	public class SoundsIDs
 	{
 		public static const CLICK:String = "click";
 		public static const BACKGROUND_SOUND:String = "music";

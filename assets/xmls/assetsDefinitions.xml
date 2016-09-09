@@ -2,6 +2,7 @@
 <root>
     <assets>
         <asset id="wheel" type="image" url="appgfx/WheelOFun.png"/>
+        <asset id="arrow" type="image" url="appgfx/WheelOFunArrow.png"/>
         <asset id="bgImage" type="image" url="appgfx/background.jpg"/>
         <asset id="music" type="sound" url="sounds/backgroundMusic.mp3"/>
         <asset id="click" type="sound" url="sounds/click.mp3"/>

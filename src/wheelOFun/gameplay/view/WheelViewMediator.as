@@ -9,6 +9,10 @@ package wheelOFun.gameplay.view
 	import starling.display.DisplayObject;
 	import starling.events.Event;
 	
+	import treefortress.sound.SoundAS;
+	
+	import wheelOFun.assetHandling.consts.SoundsIDs;
+	
 	import wheelOFun.gameplay.model.vo.WheelSliceVO;
 	import wheelOFun.gameplay.signals.ApplyResultToViewSignal;
 	import wheelOFun.gameplay.signals.EnableInteractionSignal;
@@ -91,6 +95,7 @@ package wheelOFun.gameplay.view
 		
 		private function onTouch():void
 		{
+			SoundAS.play(SoundsIDs.CLICK);
 			generateResultSignal.dispatch();
 			wheelView.wheelTouchSignal.removeAll();
 			

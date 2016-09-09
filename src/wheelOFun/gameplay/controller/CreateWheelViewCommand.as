@@ -8,6 +8,8 @@ package wheelOFun.gameplay.controller
 	
 	import flash.geom.Point;
 	
+	import starling.display.Image;
+	
 	import starling.events.Event;
 	
 	import wheelOFun.assetHandling.consts.AssetsIDs;
@@ -34,6 +36,9 @@ package wheelOFun.gameplay.controller
 			var wheelImage:WheelView = new WheelView(assetsModel.getTexture(AssetsIDs.WHEEL));
 			wheelImage.addEventListener(Event.ADDED_TO_STAGE, onAddedToStage);
 			addViewToGameLayerSignal.dispatch(new ViewToLayerVO(GameLayersEnum.LAYER_GAMEPLAY.name, wheelImage, new Point(wheelImage.width / 2 + 250, wheelImage.height / 2 + 50)));
+			var arrow:Image = new Image(assetsModel.getTexture(AssetsIDs.ARROW));
+			arrow.pivotX = arrow.width / 2;
+			addViewToGameLayerSignal.dispatch(new ViewToLayerVO(GameLayersEnum.LAYER_GAMEPLAY.name, arrow, new Point(wheelImage.x, 10)));
 		}
 		
 		private function onAddedToStage(event:Event):void

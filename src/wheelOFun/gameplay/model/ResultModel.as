@@ -7,7 +7,7 @@ package wheelOFun.gameplay.model
 	
 	public class ResultModel
 	{
-		private static const LOSE_WEIGHT:int = 35;
+		private static const LOSE_WEIGHT:int = 20;
 		private static const NORMAL_WEIGHT:int = 50;
 		private static const JACKPOT_WEIGHT:int = 5;
 		private static const TOTAL_WEIGHT:int = LOSE_WEIGHT + NORMAL_WEIGHT + JACKPOT_WEIGHT;
