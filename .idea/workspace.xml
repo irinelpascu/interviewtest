@@ -2,14 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7763dcd6-bde4-4ac0-b870-5d8a67fda036" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/score/ScoreView.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html-template/swfobject.js" afterPath="$PROJECT_DIR$/html-template/swfobject.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/greensock/loading/DataLoader.as" afterPath="$PROJECT_DIR$/src/com/greensock/loading/DataLoader.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/greensock/loading/VideoLoader.as" afterPath="$PROJECT_DIR$/src/com/greensock/loading/VideoLoader.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/greensock/loading/core/LoaderCore.as" afterPath="$PROJECT_DIR$/src/com/greensock/loading/core/LoaderCore.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/greensock/loading/core/LoaderItem.as" afterPath="$PROJECT_DIR$/src/com/greensock/loading/core/LoaderItem.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/starling/utils/AssetManager.as" afterPath="$PROJECT_DIR$/src/starling/utils/AssetManager.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/application/config/WheelOfFunConfig.as" afterPath="$PROJECT_DIR$/src/wheelOFun/application/config/WheelOfFunConfig.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/display/starling/config/StarlingConfig.as" afterPath="$PROJECT_DIR$/src/wheelOFun/display/starling/config/StarlingConfig.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/display/starling/controller/InitStarlingGameLayerContainerCommand.as" afterPath="$PROJECT_DIR$/src/wheelOFun/display/starling/controller/InitStarlingGameLayerContainerCommand.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/display/starling/signal/vos/ViewToLayerVO.as" afterPath="$PROJECT_DIR$/src/wheelOFun/display/starling/signal/vos/ViewToLayerVO.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/application/controller/startup/WheelOFunMacro.as" afterPath="$PROJECT_DIR$/src/wheelOFun/application/controller/startup/WheelOFunMacro.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/display/starling/enums/GameLayersEnum.as" afterPath="$PROJECT_DIR$/src/wheelOFun/display/starling/enums/GameLayersEnum.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/display/starling/view/IStarlingGameLayerContainerView.as" afterPath="$PROJECT_DIR$/src/wheelOFun/display/starling/view/IStarlingGameLayerContainerView.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/display/starling/view/StarlingGameLayerContainerView.as" afterPath="$PROJECT_DIR$/src/wheelOFun/display/starling/view/StarlingGameLayerContainerView.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/display/starling/view/StarlingRootClass.as" afterPath="$PROJECT_DIR$/src/wheelOFun/display/starling/view/StarlingRootClass.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/display/starling/view/StarlingStageMediator.as" afterPath="$PROJECT_DIR$/src/wheelOFun/display/starling/view/StarlingStageMediator.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/display/starling/view/StarlingGameLayerContainerViewMediator.as" afterPath="$PROJECT_DIR$/src/wheelOFun/display/starling/view/StarlingGameLayerContainerViewMediator.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/wheelOFun/assets/config/AssetsConfig.as" afterPath="$PROJECT_DIR$/src/wheelOFun/assetHandling/config/AssetsConfig.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/wheelOFun/assets/consts/AssetsConsts.as" afterPath="$PROJECT_DIR$/src/wheelOFun/assetHandling/consts/AssetsConsts.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/wheelOFun/assets/consts/AssetsIDs.as" afterPath="$PROJECT_DIR$/src/wheelOFun/assetHandling/consts/AssetsIDs.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/wheelOFun/assets/consts/AssetsSoundsIDs.as" afterPath="$PROJECT_DIR$/src/wheelOFun/assetHandling/consts/AssetsSoundsIDs.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/wheelOFun/assets/controller/LoadAndParseAssetsDefinitionCommand.as" afterPath="$PROJECT_DIR$/src/wheelOFun/assetHandling/controller/LoadAndParseAssetsDefinitionCommand.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/wheelOFun/assets/controller/LoadAssetsCommand.as" afterPath="$PROJECT_DIR$/src/wheelOFun/assetHandling/controller/LoadAssetsCommand.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/wheelOFun/assets/controller/LoadAssetsMacro.as" afterPath="$PROJECT_DIR$/src/wheelOFun/assetHandling/controller/LoadAssetsMacro.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/wheelOFun/assets/enum/AssetTypeEnum.as" afterPath="$PROJECT_DIR$/src/wheelOFun/assetHandling/enum/AssetTypeEnum.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/wheelOFun/assets/model/AssetsModel.as" afterPath="$PROJECT_DIR$/src/wheelOFun/assetHandling/model/AssetsModel.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/wheelOFun/assets/model/vo/IPendingAsset.as" afterPath="$PROJECT_DIR$/src/wheelOFun/assetHandling/model/vo/IPendingAsset.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/wheelOFun/assets/model/vo/ImagePendingAsset.as" afterPath="$PROJECT_DIR$/src/wheelOFun/assetHandling/model/vo/ImagePendingAsset.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/wheelOFun/assets/model/vo/SoundPendingAsset.as" afterPath="$PROJECT_DIR$/src/wheelOFun/assetHandling/model/vo/SoundPendingAsset.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/wheelOFun/assets/namespaces/assets_model_internal.as" afterPath="$PROJECT_DIR$/src/wheelOFun/assetHandling/namespaces/assets_model_internal.as" />
     </list>
     <ignored path="WheelOFun.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,106 +50,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InitStarlingMacro.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wheelOFun/display/starling/controller/InitStarlingMacro.as">
+      <file leaf-file-name="WheelOfFunConfig.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/wheelOFun/application/config/WheelOfFunConfig.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InitStarlingGameLayerContainerCommand.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wheelOFun/display/starling/controller/InitStarlingGameLayerContainerCommand.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddViewToGameLayerSignal.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wheelOFun/display/starling/signal/AddViewToGameLayerSignal.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InitStarlingGameLayerViewClassesCommand.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wheelOFun/display/starling/controller/InitStarlingGameLayerViewClassesCommand.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StarlingGameLayerContainerViewMediator.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wheelOFun/display/starling/view/StarlingGameLayerContainerViewMediator.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="42" column="71" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
+            <state relative-caret-position="328">
+              <caret line="39" column="8" selection-start-line="24" selection-start-column="5" selection-end-line="39" selection-end-column="8" />
               <folding>
-                <element signature="e#87#133#0" expanded="true" />
+                <element signature="e#84#111#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddGameLayerSignal.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wheelOFun/display/starling/signal/AddGameLayerSignal.as">
+      <file leaf-file-name="GameplayConfig.as" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/config/GameplayConfig.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StarlingGameLayerContainerView.as" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/wheelOFun/display/starling/view/StarlingGameLayerContainerView.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+            <state relative-caret-position="306">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
               <folding>
-                <element signature="e#45#75#0" expanded="true" />
+                <element signature="e#81#140#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DisplayObjectContainer.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/starling/display/DisplayObjectContainer.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IStarlingGameLayerContainerView.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wheelOFun/display/starling/view/IStarlingGameLayerContainerView.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewToLayerVO.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wheelOFun/display/starling/signal/vos/ViewToLayerVO.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -141,8 +80,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="ActionScript Class" />
-        <option value="ActionScript Class with Supers" />
         <option value="ActionScript Interface" />
+        <option value="ActionScript Class with Supers" />
       </list>
     </option>
   </component>
@@ -152,37 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/wheelOFun/display/layer/view/common/StarlingGameLayerContainerView.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/display/layer/view/GameLayerContainerViewMediator.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/display/layer/view/LayerViewMediator.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/display/layer/view/BasicLayerContainerViewMediator.as" />
-        <option value="$PROJECT_DIR$/src/robotlegs/bender/extensions/directCommandMap/DirectCommandMapExtension.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/robotlegs/bender/bundles/GGSMVCSBundle.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/robotlegs/bender/extensions/starlingViewMap/StarlingViewMapExtension.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/display/layer/controllers/gameLayer/starling/InitStarlingGameLayerViewClassesCommand.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/display/starling/signal/AddViewToGameLayerSignal.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/display/starling/controller/InitStarlingCommand.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/display/starling/view/StarlingGameLayerView.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/robotlegs/bender/extensions/starlingViewMap/impl/StarlingViewMap.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/robotlegs/bender/bundles/WheelOFunMVCSBundle.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/application/config/WheelOfFortuneConfig.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/application/controller/startup/GameStartupCompleteCommand.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/application/controller/GameStartupCompleteCommand.as" />
-        <option value="$PROJECT_DIR$/html-template/index.template.html" />
-        <option value="$PROJECT_DIR$/src/Main.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/display/starling/enums/GameLayersEnum.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/assets/AssetsConfig.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/assets/controller/LoadAssetsDefinitionCommand.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/assets/signal/LoadAssetsDefinitionSignal.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/assets/controller/ParseAssetsDefinitionCommand.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/assets/consts/AssetsIDs.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/assets/consts/AssetsSoundsIDs.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/assets/signal/ParseAssetsDefinitionSignal.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/assets/model/vo/SoundPendingAsset.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/assets/model/vo/IPendingAsset.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/assets/model/vo/ImagePendingAsset.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/assets/namespaces/assets_model_internal.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/assets/config/AssetsConfig.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/assets/enum/AssetTypeEnum.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/assets/controller/LoadAndParseAssetsDefinitionCommand.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/assets/controller/LoadAssetsMacro.as" />
@@ -193,16 +101,47 @@
         <option value="$PROJECT_DIR$/src/wheelOFun/assets/model/AssetsModel.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/assets/controller/LoadAssetsCommand.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/display/starling/view/StarlingStageMediator.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/application/config/WheelOfFunConfig.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/display/starling/view/StarlingRootClassMediator.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/display/starling/view/IStarlingRootClass.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/display/starling/view/StarlingRootClass.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/display/starling/config/StarlingConfig.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/display/starling/controller/InitStarlingGameLayerContainerCommand.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/display/starling/signal/vos/ViewToLayerVO.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/display/starling/view/StarlingGameLayerContainerView.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/display/starling/view/IStarlingGameLayerContainerView.as" />
         <option value="$PROJECT_DIR$/src/wheelOFun/display/starling/view/StarlingGameLayerContainerViewMediator.as" />
-        <option value="$PROJECT_DIR$/src/wheelOFun/display/starling/view/StarlingGameLayerContainerView.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/display/starling/enums/GameLayersEnum.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/balance/BalanceView.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/balance/IBalanceView.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/balance/UpdateBalanceViewSignal.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/score/BalanceView.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/score/IScoreView.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/score/ScoreView.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/signals/UpdateScoreViewSignal.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/balance/BalanceViewMediator.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/score/ScoreViewMediator.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/uis/score/ScoreViewMediator.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/signals/OpenHUDSignal.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/uis/score/ScoreView.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/uis/balance/BalanceViewMediator.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/uis/balance/BalanceView.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/hud/config/HUDConfig.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/dialog/config/HUDConfig.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/dialog/dialogs/loseATurn/BalanceView.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/dialog/dialogs/bankrupt/BalanceView.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/dialog/dialogs/bankrupt/BankruptDialogViewMediator.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/dialog/dialogs/bankrupt/BankruptDialogView.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/dialog/dialogs/bankrupt/IBankruptDialogView.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/dialog/config/DialogConfig.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/config/UIConfig.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/signals/OpenDialogSignal.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/signals/vo/IDialogProperties.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/dialog/interfaces/IDialogProperties.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/dialog/interfaces/IDialogPropertiesVO.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/signals/vo/OpenDialogVo.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/ui/signals/vo/OpenDialogVO.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/application/config/WheelOfFunConfig.as" />
+        <option value="$PROJECT_DIR$/src/wheelOFun/gameplay/config/GameplayConfig.as" />
       </list>
     </option>
   </component>
@@ -248,9 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -300,30 +236,12 @@
               <option name="myItemId" value="wheelOFun" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WheelOFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GamesysInterviewTest" />
+              <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wheelOFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="starling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
+              <option name="myItemId" value="signals" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,219 +263,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="starling" />
+              <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="signal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WheelOFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GamesysInterviewTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wheelOFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="starling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="signal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WheelOFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GamesysInterviewTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wheelOFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="starling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enums" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WheelOFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GamesysInterviewTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wheelOFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="starling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WheelOFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GamesysInterviewTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wheelOFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="starling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WheelOFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GamesysInterviewTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wheelOFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WheelOFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GamesysInterviewTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wheelOFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="namespaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WheelOFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GamesysInterviewTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wheelOFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WheelOFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GamesysInterviewTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wheelOFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="signals" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -583,11 +293,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enum" />
+              <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -609,37 +315,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WheelOFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GamesysInterviewTest" />
+              <option name="myItemId" value="dialog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wheelOFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="consts" />
+              <option name="myItemId" value="interfaces" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -661,7 +345,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dialog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WheelOFun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GamesysInterviewTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wheelOFun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WheelOFun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GamesysInterviewTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wheelOFun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WheelOFun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GamesysInterviewTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wheelOFun" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -713,37 +463,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WheelOFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GamesysInterviewTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wheelOFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="startup" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -817,6 +537,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -830,32 +553,33 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\work\GamesysInterviewTest\assets\appgfx" />
-      <recent name="D:\work\GamesysInterviewTest\src\wheelOFun\assets\config" />
-      <recent name="D:\work\GamesysInterviewTest\src\wheelOFun\display" />
-      <recent name="D:\work\GamesysInterviewTest\src\wheelOFun\display\starling\controller" />
-      <recent name="D:\work\GamesysInterviewTest\src\wheelOFun\display\starling\view" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\GamesysInterviewTest\src\wheelOFun\ui\dialog\dialogs" />
+      <recent name="D:\work\GamesysInterviewTest\src\wheelOFun\ui\dialog" />
+      <recent name="D:\work\GamesysInterviewTest\src\wheelOFun\ui\hud\config" />
+      <recent name="D:\work\GamesysInterviewTest\src\wheelOFun\ui\signals" />
+      <recent name="D:\work\GamesysInterviewTest\src\wheelOFun\ui\config" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="wheelOFun.ui" />
       <recent name="wheelOFun.application" />
     </key>
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="wheelOFun.gameplay.config" />
+      <recent name="wheelOFun.ui.signals.vo" />
+      <recent name="wheelOFun.ui.signals" />
+      <recent name="wheelOFun.ui.balance" />
       <recent name="wheelOFun.display.starling.view" />
-      <recent name="wheelOFun.assets.controller" />
-      <recent name="wheelOFun.assets.model.vo" />
-      <recent name="wheelOFun.assets.enum" />
-      <recent name="wheelOFun.assets.consts" />
     </key>
     <key name="com.intellij.javascript.flex.refactoring.moveClass.FlexMoveClassDialog.target_package">
       <recent name="wheelOFun.application.controller" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\work\GamesysInterviewTest\src\wheelOFun\assets\controller" />
-      <recent name="D:\work\GamesysInterviewTest\src\wheelOFun\assets\namespaces" />
-      <recent name="D:\work\GamesysInterviewTest\src\wheelOFun\assets\model\vo" />
-      <recent name="D:\work\GamesysInterviewTest\src\wheelOFun\assets\consts" />
-      <recent name="D:\work\GamesysInterviewTest\src\wheelOFun\application\controller\startup" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\GamesysInterviewTest\src\wheelOFun\ui\dialog\interfaces" />
+      <recent name="D:\work\GamesysInterviewTest\src\wheelOFun\ui\hud" />
+      <recent name="D:\work\GamesysInterviewTest\src\wheelOFun\ui\signals" />
+      <recent name="D:\work\GamesysInterviewTest\assets\appgfx" />
+      <recent name="D:\work\GamesysInterviewTest\src\wheelOFun\assets\config" />
     </key>
   </component>
   <component name="RunManager" selected="Flash App.GamesysInterviewTest">
@@ -1075,12 +799,13 @@
       <workItem from="1473266492137" duration="1630000" />
       <workItem from="1473268135726" duration="24454000" />
       <workItem from="1473343816661" duration="13281000" />
-      <workItem from="1473363134793" duration="5538000" />
+      <workItem from="1473363134793" duration="5726000" />
+      <workItem from="1473408597183" duration="5615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44903000" />
+    <option name="totallyTimeSpent" value="50706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1133,175 +858,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/robotlegs/bender/extensions/starlingViewMap/StarlingViewMapExtension.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/display/starling/enums/GameLayersEnum.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/assets/signal/LoadAndParseAssetsDefinitionSignal.as" />
-    <entry file="file://$PROJECT_DIR$/src/robotlegs/bender/extensions/commandCenter/api/ICommand.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/assets/consts/AssetsSoundsIDs.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/assets/consts/AssetsIDs.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/assets/signal/ParseAssetsDefinitionSignal.as" />
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/assets/controller/ParseAssetsDefinitionCommand.as" />
-    <entry file="file://$PROJECT_DIR$/src/eu/alebianco/robotlegs/utils/impl/AsyncCommand.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/as3commons/lang/Enum.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-972">
-          <caret line="75" column="25" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/assets/model/vo/IPendingAsset.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/assets/model/vo/SoundPendingAsset.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/assets/model/vo/ImagePendingAsset.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eu/alebianco/robotlegs/utils/impl/AbstractMacro.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/assets/namespaces/assets_model_internal.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/assets/config/AssetsConfig.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-          <folding>
-            <element signature="e#79#153#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/SoundAS.swc!/library.swf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/assets/enum/AssetTypeEnum.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <element signature="e#77#109#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/assets/controller/LoadAssetsMacro.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#83#130#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eu/alebianco/robotlegs/utils/impl/SequenceMacro.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/application/controller/startup/WheelOFunMacro.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/display/starling/controller/InitStarlingCommand.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/assets/controller/LoadAndParseAssetsDefinitionCommand.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/assets/consts/AssetsConsts.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/xmls/assetsDefinitions.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1314,17 +870,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="683" column="0" selection-start-line="683" selection-start-column="0" selection-end-line="683" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/assets/model/AssetsModel.as">
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/assetHandling/model/AssetsModel.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <element signature="e#78#108#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1332,11 +885,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/assets/controller/LoadAssetsCommand.as">
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/assetHandling/controller/LoadAssetsCommand.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="78" column="54" selection-start-line="78" selection-start-column="54" selection-end-line="78" selection-end-column="54" />
@@ -1348,7 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="77" column="11" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1356,17 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="59" column="39" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/application/config/WheelOfFunConfig.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
-          <folding>
-            <element signature="e#84#111#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1374,9 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding>
-            <element signature="e#45#75#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1384,9 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-323">
           <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding>
-            <element signature="e#459#485#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1395,16 +929,8 @@
         <state relative-caret-position="-835">
           <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding>
-            <element signature="e#438#464#0" expanded="true" />
+            <element signature="e#438#464#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/robotlegs/bender/extensions/mediatorMap/api/IMediator.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1412,7 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1420,7 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1437,7 +961,7 @@
         <state relative-caret-position="9">
           <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
           <folding>
-            <element signature="e#45#106#0" expanded="true" />
+            <element signature="e#45#106#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1474,24 +998,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/display/starling/view/IStarlingGameLayerContainerView.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wheelOFun/display/starling/view/StarlingGameLayerContainerViewMediator.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="42" column="71" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
-          <folding>
-            <element signature="e#87#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/wheelOFun/display/starling/controller/InitStarlingGameLayerContainerCommand.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1518,18 +1024,263 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/starling/display/DisplayObjectContainer.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="1054">
           <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/display/starling/view/IStarlingGameLayerContainerView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding>
+            <element signature="e#87#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/wheelOFun/display/starling/view/StarlingGameLayerContainerView.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+        <state relative-caret-position="203">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
           <folding>
             <element signature="e#45#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/display/starling/enums/GameLayersEnum.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="93" selection-start-line="21" selection-start-column="93" selection-end-line="21" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/robotlegs/bender/extensions/mediatorMap/api/IMediator.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/signals/UpdateScoreViewSignal.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/signals/OpenHUDSignal.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/score/ScoreView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="e#117#148#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/score/IScoreView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/signals/UpdateBalanceViewSignal.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/balance/BalanceViewMediator.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding>
+            <element signature="e#121#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/balance/BalanceView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding>
+            <element signature="e#121#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/balance/IBalanceView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/hud/huds/score/ScoreViewMediator.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#117#163#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/appgfx/wheelOFun.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/dialog/dialogs/loseATurn/BalanceView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/hud/config/HUDConfig.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/dialog/dialogs/bankrupt/IBankruptDialogView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/dialog/dialogs/bankrupt/BankruptDialogView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
+          <folding>
+            <element signature="e#92#123#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/dialog/dialogs/jackpot/BalanceView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/dialog/dialogs/jackpot/IBalanceView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/dialog/dialogs/bankrupt/BankruptDialogViewMediator.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#92#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/dialog/config/DialogConfig.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="35" column="88" selection-start-line="35" selection-start-column="88" selection-end-line="35" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/dialog/interfaces/IDialogPropertiesVO.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/signals/vo/OpenDialogVO.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/signals/OpenDialogSignal.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/ui/config/UIConfig.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+          <folding>
+            <element signature="e#31#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/display/starling/view/StarlingGameLayerContainerViewMediator.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="35" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding>
+            <element signature="e#87#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/application/config/WheelOfFunConfig.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="39" column="8" selection-start-line="24" selection-start-column="5" selection-end-line="39" selection-end-column="8" />
+          <folding>
+            <element signature="e#84#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wheelOFun/gameplay/config/GameplayConfig.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#81#140#0" expanded="true" />
           </folding>
         </state>
       </provider>

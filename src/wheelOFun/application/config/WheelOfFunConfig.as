@@ -16,8 +16,10 @@ package wheelOFun.application.config
 	import wheelOFun.application.controller.startup.WheelOFunMacro;
 	import wheelOFun.application.signals.ContextInitializedSignal;
 	import wheelOFun.application.signals.GameStartupCompleteSignal;
-	import wheelOFun.assets.config.AssetsConfig;
+	import wheelOFun.assetHandling.config.AssetsConfig;
 	import wheelOFun.display.starling.config.StarlingConfig;
+	import wheelOFun.gameplay.config.GameplayConfig;
+	import wheelOFun.ui.config.UIConfig;
 	
 	public class WheelOfFunConfig implements IConfig
 	{
@@ -43,8 +45,10 @@ package wheelOFun.application.config
 			commandMap.map(ContextInitializedSignal).toCommand(WheelOFunMacro).once();
 			commandMap.map(GameStartupCompleteSignal).toCommand(GameStartupCompleteCommand).once();
 			
-			context.configure( StarlingConfig );
+			context.configure(StarlingConfig);
 			context.configure(AssetsConfig);
+			context.configure(UIConfig);
+			context.configure(GameplayConfig);
 		}
 		
 		private function afterInitializingContext():void
@@ -53,7 +57,8 @@ package wheelOFun.application.config
 			var stage:Stage = contextView.view.stage;
 			mediatorMap.mediate(stage);
 			
-			var contextInitializedSignal:ContextInitializedSignal = injector.getInstance(ContextInitializedSignal) as ContextInitializedSignal;
+			var contextInitializedSignal:ContextInitializedSignal = injector.getInstance(
+							ContextInitializedSignal) as ContextInitializedSignal;
 			contextInitializedSignal.dispatch();
 		}
 	}

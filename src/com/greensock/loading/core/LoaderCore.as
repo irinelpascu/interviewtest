@@ -102,7 +102,7 @@ package com.greensock.loading.core {
 		/** @private **/
 		protected var _content:*;
 		
-		/** An object containing optional configuration details, typically passed through a constructor parameter. For example: <code>new SWFLoader("assets/file.swf", {name:"swf1", container:this, autoPlay:true, noCache:true})</code>. See the constructor's documentation for details about what special properties are recognized. **/
+		/** An object containing optional configuration details, typically passed through a constructor parameter. For example: <code>new SWFLoader("assetHandling/file.swf", {name:"swf1", container:this, autoPlay:true, noCache:true})</code>. See the constructor's documentation for details about what special properties are recognized. **/
 		public var vars:Object;
 		/** A name that you use to identify the loader instance. This name can be fed to the <code>getLoader()</code> or <code>getContent()</code> methods or traced at any time. Each loader's name should be unique. If you don't define one, a unique name will be created automatically, like "loader21". **/
 		public var name:String;

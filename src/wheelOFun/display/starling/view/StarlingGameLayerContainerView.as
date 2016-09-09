@@ -5,9 +5,6 @@ package wheelOFun.display.starling.view
 	
 	import org.osflash.signals.Signal;
 	
-	import starling.display.DisplayObjectContainer;
-	
-	import starling.display.DisplayObjectContainer;
 	import starling.display.Sprite;
 	import starling.events.Event;
 	

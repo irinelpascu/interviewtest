@@ -59,8 +59,8 @@ package starling.utils
     [Event(name="parseError", type="starling.events.Event")]
 
     /** The AssetManager handles loading and accessing a variety of asset types. You can 
-     *  add assets directly (via the 'add...' methods) or asynchronously via a queue. This allows
-     *  you to deal with assets in a unified way, no matter if they are loaded from a file, 
+     *  add assetHandling directly (via the 'add...' methods) or asynchronously via a queue. This allows
+     *  you to deal with assetHandling in a unified way, no matter if they are loaded from a file, 
      *  directory, URL, or from an embedded object.
      *  
      *  <p>The class can deal with the following media types:
@@ -75,7 +75,7 @@ package starling.utils
      *  </ul>
      *  </p>
      *  
-     *  <p>For more information on how to add assets from different sources, read the documentation
+     *  <p>For more information on how to add assetHandling from different sources, read the documentation
      *  of the "enqueue()" method.</p>
      * 
      *  <strong>Context Loss</strong>
@@ -89,7 +89,7 @@ package starling.utils
      *
      *  <strong>Error handling</strong>
      *
-     *  <p>Loading of some assets may fail while the queue is being processed. In that case, the
+     *  <p>Loading of some assetHandling may fail while the queue is being processed. In that case, the
      *  AssetManager will dispatch events of type "IO_ERROR", "SECURITY_ERROR" or "PARSE_ERROR".
      *  You can listen to those events and handle the errors manually (e.g., you could enqueue
      *  them once again and retry, or provide placeholder textures). Queue processing will
@@ -104,15 +104,15 @@ package starling.utils
      *
      *  <listing>
      *  var appDir:File = File.applicationDirectory;
-     *  var assets:AssetManager = new AssetManager();
+     *  var assetHandling:AssetManager = new AssetManager();
      *  
-     *  assets.textureFormat = Context3DTextureFormat.BGRA;
-     *  assets.enqueue(appDir.resolvePath("textures/32bit"));
+     *  assetHandling.textureFormat = Context3DTextureFormat.BGRA;
+     *  assetHandling.enqueue(appDir.resolvePath("textures/32bit"));
      *  
-     *  assets.textureFormat = Context3DTextureFormat.BGRA_PACKED;
-     *  assets.enqueue(appDir.resolvePath("textures/16bit"));
+     *  assetHandling.textureFormat = Context3DTextureFormat.BGRA_PACKED;
+     *  assetHandling.enqueue(appDir.resolvePath("textures/16bit"));
      *  
-     *  assets.loadQueue(...);</listing>
+     *  assetHandling.loadQueue(...);</listing>
      */
     public class AssetManager extends EventDispatcher
     {
@@ -163,7 +163,7 @@ package starling.utils
         
         /** Disposes all contained textures, XMLs and ByteArrays.
          *
-         *  <p>Beware that all references to the assets will remain intact, even though the assets
+         *  <p>Beware that all references to the assetHandling will remain intact, even though the assetHandling
          *  are no longer valid. Call 'purge' if you want to remove all resources and reuse
          *  the AssetManager later.</p>
          */
@@ -460,11 +460,11 @@ package starling.utils
             dispatchEventWith(Event.CANCEL);
         }
         
-        /** Removes assets of all types (disposing them along the way), empties the queue and
+        /** Removes assetHandling of all types (disposing them along the way), empties the queue and
          *  aborts any pending load operations. */
         public function purge():void
         {
-            log("Purging all assets, emptying queue");
+            log("Purging all assetHandling, emptying queue");
             
             purgeQueue();
             dispose();
@@ -479,7 +479,7 @@ package starling.utils
         
         // queued adding
         
-        /** Enqueues one or more raw assets; they will only be available after successfully 
+        /** Enqueues one or more raw assetHandling; they will only be available after successfully 
          *  executing the "loadQueue" method. This method accepts a variety of different objects:
          *  
          *  <ul>
@@ -487,13 +487,13 @@ package starling.utils
          *        types: <code>png, jpg, gif, atf, mp3, xml, fnt, json, binary</code>.</li>
          *    <li>Instances of the File class (AIR only) pointing to a directory or a file.
          *        Directories will be scanned recursively for all supported types.</li>
-         *    <li>Classes that contain <code>static</code> embedded assets.</li>
+         *    <li>Classes that contain <code>static</code> embedded assetHandling.</li>
          *    <li>If the file extension is not recognized, the data is analyzed to see if
          *        contains XML or JSON data. If it's neither, it is stored as ByteArray.</li>
          *  </ul>
          *  
          *  <p>Suitable object names are extracted automatically: A file named "image.png" will be
-         *  accessible under the name "image". When enqueuing embedded assets via a class, 
+         *  accessible under the name "image". When enqueuing embedded assetHandling via a class, 
          *  the variable name of the embedded object will be used as its name. An exception
          *  are texture atlases: they will have the same name as the actual texture they are
          *  referencing.</p>
@@ -519,7 +519,7 @@ package starling.utils
                     var childNode:XML;
                     
                     if (_verbose)
-                        log("Looking for static embedded assets in '" + 
+                        log("Looking for static embedded assetHandling in '" + 
                             (typeXml.@name).split("::").pop() + "'"); 
                     
                     for each (childNode in typeXml.constant.(@type == "Class"))
@@ -584,7 +584,7 @@ package starling.utils
             return name;
         }
         
-        /** Loads all enqueued assets asynchronously. The 'onProgress' function will be called
+        /** Loads all enqueued assetHandling asynchronously. The 'onProgress' function will be called
          *  with a 'ratio' between '0.0' and '1.0', with '1.0' meaning that it's complete.
          *
          *  <p>When you call this method, the manager will save a reference to "Starling.current";
@@ -608,7 +608,7 @@ package starling.utils
             _starling = Starling.current;
             
             if (_starling == null || _starling.context == null)
-                throw new Error("The Starling instance needs to be ready before assets can be loaded.");
+                throw new Error("The Starling instance needs to be ready before assetHandling can be loaded.");
 
             const PROGRESS_PART_ASSETS:Number = 0.9;
             const PROGRESS_PART_XMLS:Number = 1.0 - PROGRESS_PART_ASSETS;
@@ -812,7 +812,7 @@ package starling.utils
                 }
                 else if (_starling.context.driverInfo == "Disposed")
                 {
-                    log("Context lost while processing assets, retrying ...");
+                    log("Context lost while processing assetHandling, retrying ...");
                     setTimeout(process, 1, asset);
                     return; // to keep CANCEL event listener intact
                 }
@@ -1097,7 +1097,7 @@ package starling.utils
 
         /** This method is called by 'enqueue' to determine the name under which an asset will be
          *  accessible; override it if you need a custom naming scheme. Note that this method won't
-         *  be called for embedded assets.
+         *  be called for embedded assetHandling.
          *
          *  @param rawAsset   either a String, an URLRequest or a FileReference.
          */
@@ -1136,7 +1136,7 @@ package starling.utils
             return data;
         }
 
-        /** This method is called during loading of assets when 'verbose' is activated. Per
+        /** This method is called during loading of assetHandling when 'verbose' is activated. Per
          *  default, it traces 'message' to the console. */
         protected function log(message:String):void
         {
@@ -1238,10 +1238,10 @@ package starling.utils
          *  and 'name' properties, pointing to the raw asset and its name, respectively. */
         protected function get queue():Array { return _queue; }
         
-        /** Returns the number of raw assets that have been enqueued, but not yet loaded. */
+        /** Returns the number of raw assetHandling that have been enqueued, but not yet loaded. */
         public function get numQueuedAssets():int { return _queue.length; }
         
-        /** When activated, the class will trace information about added/enqueued assets.
+        /** When activated, the class will trace information about added/enqueued assetHandling.
          *  @default true */
         public function get verbose():Boolean { return _verbose; }
         public function set verbose(value:Boolean):void { _verbose = value; }

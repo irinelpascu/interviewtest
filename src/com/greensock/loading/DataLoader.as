@@ -57,7 +57,7 @@ package com.greensock.loading {
  import flash.net.URLVariables;
  
 //create a DataLoader for loading text (the default format)
-var loader:DataLoader = new DataLoader("assets/data.txt", {name:"myText", requireWithRoot:this.root, estimatedBytes:900});
+var loader:DataLoader = new DataLoader("assetHandling/data.txt", {name:"myText", requireWithRoot:this.root, estimatedBytes:900});
 
 //start loading
 loader.load();
@@ -67,8 +67,8 @@ var queue:LoaderMax = new LoaderMax({name:"mainQueue", onProgress:progressHandle
 
 //append the DataLoader and several other loaders
 queue.append( loader );
-queue.append( new DataLoader("assets/variables.txt", {name:"myVariables", format:"variables"}) );
-queue.append( new DataLoader("assets/image1.png", {name:"myBinary", format:"binary", estimatedBytes:3500}) );
+queue.append( new DataLoader("assetHandling/variables.txt", {name:"myVariables", format:"variables"}) );
+queue.append( new DataLoader("assetHandling/image1.png", {name:"myBinary", format:"binary", estimatedBytes:3500}) );
 
 //start loading the LoaderMax queue
 queue.load();

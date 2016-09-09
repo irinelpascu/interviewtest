@@ -26,11 +26,17 @@ package wheelOFun.display.starling.view
 			super.initialize();
 			addGameLayerSignal.add(addGameLayer);
 			addViewToGameLayerSignal.add(addViewToGameLayer);
+			starlingGameLayerContainerView.onAddedToStageSignal.addOnce(onViewAddedToStage);
 		}
 		
 		override public function destroy():void
 		{
 			super.destroy();
+		}
+		
+		private function onViewAddedToStage():void
+		{
+			
 		}
 		
 		private function addViewToGameLayer(viewToLayerVO:ViewToLayerVO):void

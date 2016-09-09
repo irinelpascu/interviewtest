@@ -40,7 +40,7 @@ package com.greensock.loading.core {
 		protected var _scriptAccessDenied:Boolean;
 		/** @private used in auditSize() just to preload enough of the file to determine bytesTotal. **/
 		protected var _auditStream:URLStream;
-		/** @private For certain types of loaders like SWFLoader and XMLLoader where there may be nested loaders found, it's better to prioritize the estimatedBytes if one is defined. Otherwise, the file size will be used which may be MUCH smaller than all the assets inside of it (like an XML file with a bunch of VideoLoaders).**/
+		/** @private For certain types of loaders like SWFLoader and XMLLoader where there may be nested loaders found, it's better to prioritize the estimatedBytes if one is defined. Otherwise, the file size will be used which may be MUCH smaller than all the assetHandling inside of it (like an XML file with a bunch of VideoLoaders).**/
 		protected var _preferEstimatedBytesInAudit:Boolean;
 		/** @private **/
 		protected var _httpStatus:int;

@@ -149,7 +149,7 @@ package com.greensock.loading {
  import com.greensock.events.LoaderEvent;
  
 //create a VideoLoader
-var video:VideoLoader = new VideoLoader("assets/video.flv", {name:"myVideo", container:this, width:400, height:300, scaleMode:"proportionalInside", bgColor:0x000000, autoPlay:false, volume:0, requireWithRoot:this.root, estimatedBytes:75000});
+var video:VideoLoader = new VideoLoader("assetHandling/video.flv", {name:"myVideo", container:this, width:400, height:300, scaleMode:"proportionalInside", bgColor:0x000000, autoPlay:false, volume:0, requireWithRoot:this.root, estimatedBytes:75000});
 
 //start loading
 video.load();
@@ -165,8 +165,8 @@ var queue:LoaderMax = new LoaderMax({name:"mainQueue", onProgress:progressHandle
 
 //append the VideoLoader and several other loaders
 queue.append( video );
-queue.append( new DataLoader("assets/data.txt", {name:"myText"}) );
-queue.append( new ImageLoader("assets/image1.png", {name:"myImage", estimatedBytes:3500}) );
+queue.append( new DataLoader("assetHandling/data.txt", {name:"myText"}) );
+queue.append( new ImageLoader("assetHandling/image1.png", {name:"myImage", estimatedBytes:3500}) );
 
 //start loading the LoaderMax queue
 queue.load();
