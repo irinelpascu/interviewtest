@@ -19,9 +19,8 @@ package wheelOFun.gameplay.controller
 		
 		override public function prepare():void
 		{
+			add(InitializeResultModelCommand);
 			add(CreateWheelViewCommand);
-			
-			
 		}
 		
 		override public function execute():void

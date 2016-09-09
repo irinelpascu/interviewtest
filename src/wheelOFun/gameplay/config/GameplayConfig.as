@@ -10,6 +10,11 @@ package wheelOFun.gameplay.config
 	import robotlegs.bender.framework.api.IContext;
 	import robotlegs.bender.framework.api.IInjector;
 	
+	import wheelOFun.gameplay.controller.GenerateResultCommand;
+	import wheelOFun.gameplay.model.ResultModel;
+	
+	import wheelOFun.gameplay.model.ResultModel;
+	
 	import wheelOFun.gameplay.model.WheelModel;
 	import wheelOFun.gameplay.signals.EnableInteractionSignal;
 	import wheelOFun.gameplay.signals.GenerateResultSignal;
@@ -38,8 +43,11 @@ package wheelOFun.gameplay.config
 		public function configure():void
 		{
 			injector.map(WheelModel).asSingleton();
-			injector.map(GenerateResultSignal).asSingleton();
+			injector.map(ResultModel).asSingleton();
+			
 			injector.map(EnableInteractionSignal).asSingleton();
+			
+			commandMap.map(GenerateResultSignal).toCommand(GenerateResultCommand);
 			
 			mediatorMap.map(IWheelView).toMediator(WheelViewMediator);
 		}

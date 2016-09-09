@@ -3,9 +3,11 @@
  */
 package wheelOFun.gameplay.model
 {
+	import wheelOFun.gameplay.model.vo.WheelSliceVO;
+	
 	public class WheelModel
 	{
-		public static const WHEEL_VALUES_IN_CIRCULAR_ORDER:Vector.<int> = new <int>[5000, 600, 500,
+		private static const WHEEL_VALUES_IN_CIRCULAR_ORDER:Vector.<int> = new <int>[5000, 600, 500,
 		                                                                            300, 500, 800,
 		                                                                            550, 400, 300,
 		                                                                            900, 500, 300,
@@ -14,22 +16,24 @@ package wheelOFun.gameplay.model
 		                                                                            800,
 		                                                                            350, 450, 700,
 		                                                                            300, 600];
-		private var _wheelRotationAngleFromValues:Vector.<Number>;
+		private var _wheelSlices:Vector.<WheelSliceVO>;
 		
 		public function WheelModel()
 		{
 			var length:int = WHEEL_VALUES_IN_CIRCULAR_ORDER.length;
-			_wheelRotationAngleFromValues = new Vector.<Number>();
+			var wheelSlice:WheelSliceVO;
+			_wheelSlices = new Vector.<WheelSliceVO>();
 			
 			for (var i:int = 0; i < length; i++)
 			{
-				_wheelRotationAngleFromValues.push(360 / length * i * Math.PI / 180);
+				wheelSlice = new WheelSliceVO(i, WHEEL_VALUES_IN_CIRCULAR_ORDER[i], 360 / length * i * Math.PI / 180);
+				_wheelSlices.push(wheelSlice);
 			}
 		}
 		
-		public function getRotationAngle(winAmount:int):Number
+		public function get wheelSlices():Vector.<WheelSliceVO>
 		{
-			return _wheelRotationAngleFromValues[WHEEL_VALUES_IN_CIRCULAR_ORDER.indexOf(winAmount)];
+			return _wheelSlices;
 		}
 	}
 }
