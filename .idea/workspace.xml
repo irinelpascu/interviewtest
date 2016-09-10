@@ -2,138 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7763dcd6-bde4-4ac0-b870-5d8a67fda036" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/BlitMask.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/FlexBlitMask.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/TimelineLite.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/TimelineMax.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/TweenAlign.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/TweenLite.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/TweenMax.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/TweenNano.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/changelog.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/core/Animation.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/core/PropTween.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/core/SimpleTimeline.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/data/TweenLiteVars.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/data/TweenMaxVars.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/Back.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/BackIn.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/BackInOut.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/BackOut.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/Bounce.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/BounceIn.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/BounceInOut.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/BounceOut.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/Circ.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/CircIn.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/CircInOut.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/CircOut.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/Cubic.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/Ease.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/EaseLookup.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/Elastic.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/ElasticIn.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/ElasticInOut.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/ElasticOut.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/Expo.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/ExpoIn.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/ExpoInOut.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/ExpoOut.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/Linear.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/Power0.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/Power1.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/Power2.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/Power3.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/Power4.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/Quad.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/Quart.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/Quint.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/RoughEase.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/Sine.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/SineIn.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/SineInOut.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/SineOut.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/SlowMo.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/SteppedEase.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/Strong.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/easing/core/EasePoint.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/events/LoaderEvent.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/events/TweenEvent.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/layout/AlignMode.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/layout/AutoFitArea.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/layout/ScaleMode.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/BinaryDataLoader.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/CSSLoader.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/DataLoader.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/ImageLoader.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/LoaderMax.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/LoaderStatus.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/MP3Loader.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/SWFLoader.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/SelfLoader.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/VideoLoader.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/XMLLoader.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/changelog.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/core/DisplayObjectLoader.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/core/LoaderCore.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/core/LoaderItem.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/data/CSSLoaderVars.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/data/DataLoaderVars.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/data/ImageLoaderVars.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/data/LoaderMaxVars.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/data/MP3LoaderVars.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/data/SWFLoaderVars.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/data/VideoLoaderVars.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/data/XMLLoaderVars.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/display/ContentDisplay.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/loading/display/FlexContentDisplay.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/motionPaths/CirclePath2D.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/motionPaths/Direction.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/motionPaths/LinePath2D.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/motionPaths/MotionPath.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/motionPaths/PathFollower.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/motionPaths/RectanglePath2D.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/AutoAlphaPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/BevelFilterPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/BezierPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/BezierThroughPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/BlurFilterPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/CacheAsBitmapPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/CirclePath2DPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/ColorMatrixFilterPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/ColorTransformPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/DirectionalRotationPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/DropShadowFilterPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/EndArrayPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/EndVectorPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/FilterPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/FrameBackwardPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/FrameForwardPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/FrameLabelPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/FramePlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/GlowFilterPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/HexColorsPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/OnChangeRatioPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/OnCompleteRenderPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/Positions2DPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/QuaternionsPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/RemoveTintPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/RoundPropsPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/ScalePlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/ScrollRectPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/SetActualSizePlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/SetSizePlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/ShortRotationPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/SoundTransformPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/StageQualityPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/TintPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/TransformMatrixPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/TweenPlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/VisiblePlugin.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/greensock/plugins/VolumePlugin.as" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/application/controller/startup/WheelOFunMacro.as" afterPath="$PROJECT_DIR$/src/wheelOFun/application/controller/startup/WheelOFunMacro.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wheelOFun/robotlegs/bender/bundles/WheelOFunMVCSBundle.as" afterPath="$PROJECT_DIR$/src/wheelOFun/robotlegs/bender/bundles/WheelOFunMVCSBundle.as" />
     </list>
     <ignored path="WheelOFun.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -154,18 +23,7 @@
     <favorites_list name="WheelOFun" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WheelOfFunConfig.as" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/wheelOFun/application/config/WheelOfFunConfig.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -285,7 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -744,6 +602,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="production" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WheelOFun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GamesysInterviewTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="production" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GamesysInterviewTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WheelOFun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GamesysInterviewTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="html-template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -805,7 +703,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -814,8 +712,8 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.ActionScript" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="tasks.timeTracking" />
+    <property name="settings.editor.splitter.proportion" value="0.2168344" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="SearchEverywhereHistoryKey" value="assetid&#9;null&#9;null" />
@@ -1013,7 +911,7 @@
       <option name="fastPackaging" value="true" />
       <option name="fullScreenHeight" value="0" />
       <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
+      <option name="launchUrl" value="true" />
       <option name="launcherParameters">
         <LauncherParameters>
           <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
@@ -1031,7 +929,7 @@
       <option name="screenDpi" value="0" />
       <option name="screenHeight" value="0" />
       <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
+      <option name="url" value="http://localhost/GamesysInterviewTest/Main.html" />
       <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
@@ -1071,12 +969,16 @@
       <workItem from="1473408597183" duration="9768000" />
       <workItem from="1473420889669" duration="22954000" />
       <workItem from="1473444926838" duration="799000" />
-      <workItem from="1473445742644" duration="893000" />
+      <workItem from="1473445742644" duration="1893000" />
+      <workItem from="1473448261508" duration="796000" />
+      <workItem from="1473492844329" duration="200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79505000" />
+    <option name="enabled" value="true" />
+    <option name="totallyTimeSpent" value="81501000" />
+    <option name="suspendDelayInSeconds" value="300" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1089,31 +991,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2820513" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18603411" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Time Tracking" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2820513" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2820513" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1219,9 +1122,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="e#38#102#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1229,9 +1129,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1377">
           <caret line="97" column="42" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
-          <folding>
-            <element signature="e#79#125#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1239,7 +1136,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="21" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1247,9 +1143,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="28" column="9" selection-start-line="18" selection-start-column="5" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="e#85#109#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1257,9 +1150,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-          <folding>
-            <element signature="e#85#109#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1267,9 +1157,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1284,7 +1171,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1300,9 +1186,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="37" column="180" selection-start-line="37" selection-start-column="180" selection-end-line="37" selection-end-column="180" />
-          <folding>
-            <element signature="e#85#139#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1310,9 +1193,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding>
-            <element signature="e#85#132#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1320,7 +1200,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1328,7 +1207,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1336,7 +1214,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1344,7 +1221,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1352,7 +1228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="43" column="53" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1360,7 +1235,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1368,9 +1242,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1378,9 +1249,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1388,7 +1256,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1396,7 +1263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1404,7 +1270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1412,7 +1277,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1420,7 +1284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1428,7 +1291,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1436,9 +1298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#51#98#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1446,7 +1305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1454,7 +1312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1462,7 +1319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1470,7 +1326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1478,7 +1333,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1486,7 +1340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1494,7 +1347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1502,9 +1354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1512,9 +1361,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1522,9 +1368,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1532,9 +1375,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1542,7 +1382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1550,15 +1389,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="24" column="96" selection-start-line="24" selection-start-column="96" selection-end-line="24" selection-end-column="96" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/wheelOFun/application/config/WheelOfFunConfig.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="170">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
         </state>
       </provider>
     </entry>
